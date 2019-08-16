@@ -1,0 +1,9 @@
+JavaScript Display Possibilities
+
+Writing into a an alert box.
+- window.alert("example")
+Writing into a the HTML document.
+- document.write()
+Writing in an HTML element.
+-innerHTML
+Writing into the browser console, using console.log()

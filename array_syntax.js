@@ -13,7 +13,7 @@ console.log(nestArray[0][0]); //The first index determines which array, the seco
 console.log(nestArray[1][0])
 
 //Appending Data to an Array
-exArray.push(["JavaScript", "Ruby"]) // Push appends and additonalarray
+exArray.push(["JavaScript", "Ruby"]) // Push appends and additonal array
 console.log(exArray)
 
 //Manipulating Arrays
@@ -29,6 +29,8 @@ var nameArray = ["Alex", "Joy", "Cassie"];
 var shiftedArray = nameArray.shift();
 console.log(nameArray);
 console.log(shiftedArray);
+
+
 
 //*unshift: Adds and element to the first index of an array.
 nameArray.unshift("Jack");

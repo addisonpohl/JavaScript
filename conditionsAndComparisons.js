@@ -34,4 +34,12 @@ function testLogicalAnd(val) {
     return "No"
 }
 
-console.log(testLogicalAnd(45))
+function testLogicalOr(val) {
+  if (val < 10 || val > 20 ) {
+    return "Outside";
+  }
+  return "inside";
+}
+
+console.log(testLogicalAnd(45));
+console.log(testLogicalOr(15));

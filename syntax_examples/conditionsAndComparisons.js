@@ -43,3 +43,20 @@ function testLogicalOr(val) {
 
 console.log(testLogicalAnd(45));
 console.log(testLogicalOr(15));
+
+
+//Ternary --- condition ? statment-if-true : statment-if-false;
+
+function checkEqual(a, b) {
+    //basic syntax example
+    return a == b ? true : false;
+}
+
+console.log(checkEqual(2, 5));
+
+//Using multiple conditonal ternary operators
+function checkSign(num) {
+    //nested operators
+    return num > 0 ? "positive" : num < 0 ? "negative" : "zero";
+}
+console.log(checkSign(10));

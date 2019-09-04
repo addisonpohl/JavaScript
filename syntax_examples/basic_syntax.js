@@ -66,3 +66,12 @@ myStr = "I'm a \"double quoted string\"";//Strings are inmutable meaning individ
 var firstName = "Paul";
 var thirdToLastCharacter = firstName[firstName.length - 3]; //To retreive the last character you would subtract the length mine the ammount of characters to go back to
 console.log(thirdToLastCharacter);
+
+//parseInt is used to convert a string into an integer
+
+function convertToInteger(str) {
+  return parseInt(str);
+}
+
+console.log(convertToInteger("56"));
+

@@ -75,3 +75,7 @@ function convertToInteger(str) {
 
 console.log(convertToInteger("56"));
 
+//pareInt can also convert numbers and change the base number with a second parameter
+console.log(parseInt("1011", 2));
+
+
